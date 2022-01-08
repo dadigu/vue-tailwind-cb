@@ -1,9 +1,9 @@
 <script>
-  export default {
-    data: () => ({
-      value: 'Hello world!'
-    })
-  }
+export default {
+  data: () => ({
+    value: "Hello world!",
+  }),
+};
 </script>
 
 <template>
