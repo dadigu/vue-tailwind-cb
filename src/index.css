@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .rb { border: 1px solid red !important; }
+  .ro { outline: 1px solid red !important; }
+  .bb { border: 1px solid blue !important; }
+  .bo { outline: 1px solid blue !important; }
+}
